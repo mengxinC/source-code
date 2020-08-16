@@ -10,7 +10,7 @@ int main (void)
     printf(" to quit .\n");
     while (scanf("%1f%d", &x, &exp) == 2)
     {
-
+// CNB
         
     }    
 }
