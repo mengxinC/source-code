@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main (void)
 {
-   int  size, number, n;
-
+   int  size = 0, number = 5;
+   printf("你一开始有%d个朋友\n", number);
    while (number < 151)
-   {
-       while()
-       {
-       number = 2 * (number - size );
-       ++size;
-       }
+   {    
+        number = 2 * ( number - ++size );
+        printf("第%d周，你有%d个朋友\n", size, number);
    }
+    getchar();
+    getchar();
+    return 0;
 }
