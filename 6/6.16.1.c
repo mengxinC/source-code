@@ -10,8 +10,9 @@ int main(void)
     while(let++ < SIZE)
     {
         printf("%c\n",letter[let]);
-    }
+    }    
     printf("bye!");
+   
     getchar();
     getchar();
     return 0;

@@ -12,7 +12,6 @@ int main(void)
     }
 
     getchar();
-    getchar();
     return 0;
 }
 // ÎÒºÃnb

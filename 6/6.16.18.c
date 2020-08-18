@@ -8,7 +8,7 @@ int main (void)
         number = 2 * ( number - ++size );
         printf("第%d周，你有%d个朋友\n", size, number);
    }
-    getchar();
+   
     getchar();
     return 0;
 }
