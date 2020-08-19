@@ -15,8 +15,7 @@ int main(void)
     while((ch = getchar()) != STOP)
     {   
         size++;
-        ch = toupper(ch);
-        switch (ch)
+        switch (toupper(ch))
         {
             case 'A': a_ct++;
                       break;
