@@ -74,7 +74,8 @@ int main(void)
     }
     printf("×Ö·û³öÏÖÆµÂÊ: A   B   C   D   E   F   G   H   I   J   K   L   M   N   O   P   Q   R   S   T   U   V   W   X   Y   Z\n");
     printf("           %4d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d\n"
-           ,a_ct, b_ct, c_ct, d_ct, e_ct, f_ct, g_ct, h_ct, i_ct, j_ct, k_ct, l_ct, m_ct, n_ct, o_ct, p_ct, q_ct, r_ct, s_ct, t_ct, u_ct, v_ct, w_ct, x_ct, y_ct, z_ct );
+           ,a_ct, b_ct, c_ct, d_ct, e_ct, f_ct, g_ct, h_ct, i_ct, j_ct, k_ct, l_ct, m_ct, n_ct, o_ct, p_ct, q_ct, r_ct, s_ct, t_ct,
+            u_ct, v_ct, w_ct, x_ct, y_ct, z_ct );
 
     getchar();
     getchar();
