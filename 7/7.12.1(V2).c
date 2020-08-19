@@ -5,6 +5,7 @@
 int main(void)
 {
     char ch;
+    int size = 0;
     int a_ct, b_ct, c_ct, d_ct, e_ct, f_ct, g_ct, h_ct, i_ct, j_ct, k_ct, l_ct, m_ct; 
     int n_ct, o_ct, p_ct, q_ct, r_ct, s_ct, t_ct, u_ct, v_ct, w_ct, x_ct, y_ct, z_ct;
     a_ct = b_ct = c_ct = d_ct = e_ct = f_ct = g_ct = h_ct = i_ct = j_ct = k_ct = l_ct = m_ct = 0;
@@ -12,7 +13,8 @@ int main(void)
 
     printf("请输入字符(输入#结束)\n");
     while((ch = getchar()) != STOP)
-    {
+    {   
+        size++;
         ch = toupper(ch);
         switch (ch)
         {
@@ -76,6 +78,7 @@ int main(void)
     printf("           %4d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d\n"
            ,a_ct, b_ct, c_ct, d_ct, e_ct, f_ct, g_ct, h_ct, i_ct, j_ct, k_ct, l_ct, m_ct, n_ct, o_ct, p_ct, q_ct, r_ct, s_ct, t_ct,
             u_ct, v_ct, w_ct, x_ct, y_ct, z_ct );
+    printf("一共有%d个字母.\n", size);
 
     getchar();
     getchar();
