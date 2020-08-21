@@ -45,7 +45,10 @@ int main(void)
             else   
                 taxes = (income - MARRIED_DIVORCE) * TAX_REVENUE_PASS + (MARRIED_DIVORCE * TAX_REVENUE);
         }
+        if (size == 1 || size == 2 || size == 3 || size == 4)
         printf("您的税金为%.2f\n", taxes);
+        else
+            printf("请输入有效数字.\n");
         printf("请选择您的税收种类和收入(输入0退出).\n");
         printf("   1.单身         2.户主   \n");
         printf("   2.已婚共有     3.已婚离异     \n");
