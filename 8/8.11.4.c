@@ -15,7 +15,7 @@ int main(void)
             number++;
     }
     if (size != 0)
-    average = size / number;
+        average = size / number;
     if (size == 0 && number > 0)
         number = 0;
     printf("您输入了%d个单词,平均每个单词有%d个字母.\n", number, average);
