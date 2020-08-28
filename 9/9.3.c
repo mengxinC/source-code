@@ -3,7 +3,8 @@ int imin(int, int);
 
 int main(void)
 {
-    int evil1, evil2;
+    int evil1;
+    int evil2;
 
     printf("Enter a pair of integers (q to quit) : \n");
     while (scanf("%d %d", &evil1, &evil2) == 2)
