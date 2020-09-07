@@ -17,6 +17,7 @@ int main (void)
     return 0;
 }
 
+//´òÓ¡Ä£¿é
 void chline (char ch, int i, int j)
 {
     int size = 0;
