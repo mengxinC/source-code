@@ -4,7 +4,7 @@ void chline (char, int, int);
 
 int main (void)
 {
-    char character;
+    char character; //×Ö·û
     int i; //ÐÐ
     int j; //ÁÐ
 
